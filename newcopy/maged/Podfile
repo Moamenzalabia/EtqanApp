@@ -1,0 +1,23 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+inhibit_all_warnings!
+use_frameworks!
+
+target ‘maged’ do
+    pod 'GoogleMaps'
+    pod 'GooglePlaces'
+    pod ‘GooglePlacePicker’
+    pod 'HCSStarRatingView', '~> 1.5'
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'Kingfisher'
+    pod 'SwiftMessages'
+    pod 'SwiftKeychainWrapper'
+    pod 'MOLH'
+    pod 'ObjectMapper', '~> 3.4'
+    pod 'IQKeyboardManagerSwift'
+    pod "CCMPopup"
+    pod 'SideMenu'
+
+    
+end
